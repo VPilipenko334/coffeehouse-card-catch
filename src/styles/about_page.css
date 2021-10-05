@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Lemonada', cursive;
+  /* background: rgb(231, 219, 219); */
+  position: relative;
+  /* font-weight: bolder; */
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pile-of-coffee-beans-background-stockcam.jpg);
+  opacity: 100%;
+  align-items: center;
+}
+
+
+#container {
+  margin:5%;
+  position: relative;
+  border: 10px double #774936;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #cfaea5b6;
+  text-align: center;
+  justify-content: space-around;
+  background-image: url(https://i.gifer.com/2iiH.gif);
+} 
+
+
+#instructions {
+  margin: 5%;
+  position: relative;
+  border: 10px double #774936;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #f3cfc6b0;
+  font-size: 17px;
+  text-align: center;
+  /* background-image: url(https://i.gifer.com/2iiH.gif); */
+} 
+
+#button {
+  background-color: rgba(204, 112, 140, 0.692);
+  border-radius: 60px;
+  font-family: 'Lemonada', cursive;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #361608;
+  border: 3px solid #774936;
+  cursor: pointer;
+}
+
+#button:hover {
+  color: rgb(165, 70, 18)
+}
+
+.about-me {
+  max-height: 450px;
+  max-width: 450px;
+  color: #361608;
+  align-items: center;
+  margin: auto;
+  font-weight: bolder;
+  /* border: 10px double #774936;
+  border-radius: 50px;
+  background-color: rgba(220, 188, 214, 0.747); */
+}
+
+
+h1 {
+  font-family: 'Lemonada', cursive;
+  color: #361608;
+}
+
+#biggerdiv {
+  position: relative;
+  border: 10px double #774936;
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #f3cfc6b0;
+  text-align: center;
+  margin: 5%; 
+  margin-bottom: 7%;
+  justify-content: space-around;
+  align-items: center;
+  /* background-image: url(https://i.gifer.com/2iiH.gif); */
+} 
+
+#musicbuttons {
+  margin-bottom: 75px;
+}
+
+#headshot {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  border: 10px double #774936;
+  border-radius: 50px;
+}
+
+#social {
+    opacity: 80%;
+}

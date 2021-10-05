@@ -1,0 +1,215 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* canvas { */
+  /* height: 550px; */
+  /* width: 1250px; */
+  /* border: 1px solid black;  */
+  /* background-image: url(../images/background.jpeg); */
+/* } */
+
+.canvas-container {
+    display: block;
+    margin: auto;
+    /* margin-top: 100vh;
+    margin-left: 5vh; */
+    position: absolute;
+    /* width: 90vw;
+    height: 70vh; */
+    display: flex;
+    justify-content: center;
+    /* background-color: red */
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Lemonada', cursive;
+  /* background: rgb(231, 219, 219); */
+  position: relative;
+  font-weight: bolder;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pile-of-coffee-beans-background-stockcam.jpg);
+  opacity: 100%; 
+}
+
+h1 {
+  font-family: 'Lemonada', cursive;
+}
+
+h3 {
+ font-family: 'Lemonada', cursive;
+}
+
+#container {
+  margin: 5%;
+  position: relative;
+  border: 1px solid #2c211e;
+  overflow: hidden;
+  background-color: #f3cfc6b0;
+  text-align: center;
+  justify-content: space-around;
+  border: 10px double #774936;
+  border-radius: 50px;
+  /* opacity: 95%; */
+} 
+
+
+#instructions {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 1.5px solid #3a3635;
+  overflow: hidden;
+  background-color: #be8971;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 5%;
+  border: 10px double #774936;
+  border-radius: 50px;
+} 
+
+button {
+  background-color: rgba(204, 112, 140, 0.692);
+  /* background-color: rgba(230, 139, 166, 0.692); */
+  /* background-color: pink; */
+  color: #361608;
+  border-radius: 60px;
+  border: 3px solid #774936;
+  font-family: 'Lemonada', cursive;
+  font-weight: bolder;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(165, 70, 18)
+}
+
+#generator-button {
+  background-color: #642A11;
+  color: white; 
+  border-radius: 60px;
+  border: 2px solid #3a3635;
+  font-family: 'Lemonada', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#generator-button:hover {
+  color: rgb(214, 115, 62)
+}
+
+.game {
+  height: 700px;
+  width: 800px;
+  /* height: 90%; */
+  /* width: 90%; */
+  margin-left: 5%;
+  position: relative;
+  /* border: 1px solid #3a3635; */
+  background-color: #EDC4B3;
+  /* background-image: url(https://i.ytimg.com/vi/h2zkV-l_TbY/maxresdefault.jpg); */
+  /* background-image: url(https://images.unsplash.com/photo-1515094264130-1c21fc4c9dcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80); */
+  background-size: cover;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 7%;
+  /* position: relative; */
+  overflow: hidden;
+  border: 10px double #774936;
+  border-radius: 50px;
+  opacity: 95%;
+  margin: auto; 
+  margin-bottom: 10px;
+}
+
+#info {
+  display: flex;
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 1px solid #3a3635;
+  overflow: hidden;
+  background-color: #91635860;
+}
+
+#extra {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#border {
+ display: flex;
+  height: 500px;
+  width: 40%;
+  margin-left: 5%;
+  position: relative;
+  border: 1px solid #3a3635;
+  background-color: #8551439c;
+  margin-right: 5%;
+  border: 10px double #774936;
+  border-radius: 50px;
+}
+
+#recipe {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  position: relative;
+  border: 1px solid #2c211e;
+  background-color: #daaca1b0;
+  background-size: cover;
+  opacity: 100%;
+}
+
+#welcome-page {
+   background-color: rgba(204, 112, 140, 0.692);
+  /* background-color: rgba(230, 139, 166, 0.692); */
+  /* background-color: pink; */
+  color: #361608;
+  border-radius: 60px;
+  font-family: 'Lemonada', cursive;
+  font-weight: bolder;
+  font-size: 16px;
+  position: relative; 
+  border: 3px solid #774936;
+  cursor: pointer;
+}
+
+#welcome-page:hover {
+  color: rgb(165, 70, 18)
+}
+
+
+#first {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 1px solid #2c211e;
+  overflow: hidden;
+  background-color: #daaca1b0;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+} 
+
+
+  /* from {top: -200px};  
+  to {top: 300px}; 
+} */

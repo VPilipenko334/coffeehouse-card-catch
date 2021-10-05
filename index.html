@@ -8,11 +8,91 @@
     <link rel="stylesheet" href="./dist/main.css" />
     <link rel="stylesheet" href="./src/index.scss" />
     <script src="./dist/main.js"></script>
-    <title>CoffeeHouse Catch</title>
+
+    <link rel="stylesheet" href="./src/styles/cards.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg/png" href="coffee_bean_favicon.png" />
+    <title>CoffeeHouse Catch</title> 
 </head>
 
 <!-- <h1>CoffeeHouse Catch Project</h1> -->
 <body>
+    <div id="container">
+        <img src="./src/images/2.png"></img>
+    
+        <div id="instructions">
+    
+            <div id="container">
+                <br>
+                <button data-modal-target="#modal">Instructions</button>
+                <div class="modal active" id="modal">
+                    <div class="modal-header">
+                        <div class="title">Instructions for the Game!</div>
+                        <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="src/images/relaxingbeans.png" height="200px" width="200px"><br>
+                        Use the left and right arrows on your keyboard to move the coffee cup.
+                        <br><br>
+                        Once the game starts, try to collect all the coffee ingredients you see on the screen.
+                        <br><br>
+                        Once you have collected all the ingredients, you win and can move up a level.
+                        <br><br>
+    
+                    </div>
+                </div>
+                <div class="active2" id="overlay2"></div><br>
+                <button data-modal-target="#modal2">Generate Random Recipe</button>
+                <div class="modal active2" id="modal2">
+                    <div class="modal-header">
+                        <img src="">
+                        <div class="title">Generate a Random Recipe</div>
+                        <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body"><br>
+                        <button id="generator-button">Click me!</button>
+                        <br><br>
+                        <img src="src/images/chillinbeanz.png" height="200px" width="200px"><br>
+                        <div id="result">
+                            <ul id="list"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="active" id="overlay"></div><br><br>
+    
+                <form action="about.html">
+                    <input id="welcome-page" type="submit" value="About the creator" />
+                </form>
+    
+                <br>
+                <div class="buttons">
+    
+                    <audio id="music">
+                        <source src="cruel_summer.mp3" type="audio/mpeg">
+                    </audio>
+    
+                    <button id="buttonz" onclick="play()" type="button">Sound On</button>
+                    <button id="buttonz" onclick="pause()" type="button">Pause Music</button>
+    
+                    <script>
+                        var myMusic = document.getElementById("music");
+                        function play() {
+                            myMusic.play();
+                        }
+
+                        function pause() {
+                            myMusic.pause();
+                        }
+                    </script>
+                    <br>
+                </div>
+                <br>
+            </div>  
+        </div>
+
     <div class="game">
 
         <div class="coffeehouse-card" data-framework="milk">
@@ -70,7 +150,7 @@
             <img src="./images/ombre.jpeg" class="back" />
         </div>
         
-        <div class="coffeehouse-card" data-framework="sugar" >
+        <div class="coffeehouse-card" >
             <img src="./images/sugar.png" class="front" id="sugar" />
             <img src="./images/ombre.jpeg" class="back" />
         </div>
