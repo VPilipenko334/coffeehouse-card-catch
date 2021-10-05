@@ -10,6 +10,14 @@
   margin: auto;
 }
 
+.game-container {
+  margin: 5%;
+  border: 1px solid #2c211e;
+  background-color: #f3cfc6b0;
+  border: 10px double #774936;
+  border-radius: 50px;
+}
+
 .coffeehouse-card {
   margin: 5px;
   width: calc(25% - 10px);
