@@ -38,6 +38,7 @@ function unflip() {
 
 function match() {
     if (firstCard.dataset.framework === secondCard.dataset.framework) {
+        // alert('you did it!')
         disable();
     } else {
         unflip();
