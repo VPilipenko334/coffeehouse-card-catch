@@ -28,13 +28,16 @@
     border: 10px double #774936;
     border-radius: 50px;
     padding: 10px; 
+    display: inline-block; 
 }
 
 .coffeehouse-card {
     // border: 2px solid red; 
     margin: 5px; 
-    width: calc(25% - 10px); 
-    height: calc(33.333% - 10px); 
+    // width: calc(25% - 10px); 
+    // height: calc(33.333% - 10px); 
+    width: 150px;
+    height: 160px; 
     position: relative; 
     transform: scale(1); 
     transform-style: preserve-3d;
@@ -56,7 +59,7 @@
     width: 100%;
     height: 100%; 
     border-radius: 10px;
-    padding: 10px; 
+    // padding: 10px; 
     background-color:light palevioletred;
     backface-visibility: hidden;
     transform: rotateY(180deg);
@@ -73,10 +76,37 @@
     width: 100%;
     height: 100%; 
     border-radius: 10px;
-    padding: 10px;  
+    // padding: 10px;  
     // margin: 10px;
     background-color:light palevioletred;
     backface-visibility: hidden;
     border: 5px solid #784936;
 }
 
+.recipe {
+    // display: inline-block;
+    background-color: #f3cfc6b0;
+    border: 10px double #774936;
+    border-radius: 50px;
+    padding: 10px;
+    // width: 430px;
+    height: 690px; 
+    width: 365px;
+    // height: 640px; 
+    margin: 5%;
+    margin-left: 10px; 
+    float: right; 
+    justify-content: space-evenly;
+}
+
+.outer-game-container {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    border: 1.5px solid #3a3635;
+    background-color: #be8971;
+    font-size: 17px;
+    margin-bottom: 5%;
+    border: 10px double #774936;
+    border-radius: 50px;
+}
