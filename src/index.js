@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-    coffeeOrders = [
+// document.addEventListener('DOMContentLoaded', () => {
+    const coffeeOrders = [
         ['Sugar', ' Water', ' Cinnamon Sticks', ' Ground Cloves', ' Ground Ginger', ' 2tbs Ground Nutmeg', ' 4tbs Pumpkin Purèe', ' Whole Milk', ' Pumpkin Spice', ' Caramel Sauce', ' Pumpkin Flavored Coffee', ' Whipped Cream', ' Caramel Sauce Drizzle'],
         ['Brown Sugar', ' Water', ' Nutmeg', ' Cinnamon', ' Cold Brew', ' Oat-Milk', ' 1–2 Tbsp Brown Sugar Cinnamon Simple Syrup', ' Cinnamon stick to garnish​'],
         ['2 Tbsp Starbucks® Espresso Roast', ' 4 Tbsp Vodka', ' 2 Tbsp Coffee Liqueur', ' Ice Cubes', ' 3 Whole Coffee Beans (for garnish)'],
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         [' 1 oz Vanilla Syrup​', ' ¾ cup 2% Milk​', ' Ice', ' 2 oz (about 2 shots) of Starbucks® Espresso Roast​', ' Caramel Sauce'],
         [' 1 shot (1oz) Starbucks® Espresso Roast', ' 1 cup 2% Milk', ' 3 tbsp dark chocolate sauce/syrup', ' 1.5 tbsp toffee nut syrup', ' Whipped Cream', ' Caramel sauce', ' Smoked sea salt and sugar topping (for this topping mix together ⅔ cup turbinado sugar with ⅓ cup smoked sea salt.)']
     ]
-});
+// });
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
@@ -22,8 +22,7 @@ const setRandomDrink = () => {
 
 //for the button
 
-document.getElementById('generator-button')
-    .addEventListener('click', setRandomDrink);
+document.getElementById('generator-button').addEventListener('click', setRandomDrink);
 
 
 

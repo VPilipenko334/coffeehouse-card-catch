@@ -109,29 +109,6 @@ button:hover {
   color: rgb(214, 115, 62)
 }
 
-.game {
-  height: 700px;
-  width: 800px;
-  /* height: 90%; */
-  /* width: 90%; */
-  margin-left: 5%;
-  position: relative;
-  /* border: 1px solid #3a3635; */
-  background-color: #EDC4B3;
-  /* background-image: url(https://i.ytimg.com/vi/h2zkV-l_TbY/maxresdefault.jpg); */
-  /* background-image: url(https://images.unsplash.com/photo-1515094264130-1c21fc4c9dcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80); */
-  background-size: cover;
-  font-size: 17px;
-  text-align: center;
-  margin-bottom: 7%;
-  /* position: relative; */
-  overflow: hidden;
-  border: 10px double #774936;
-  border-radius: 50px;
-  opacity: 95%;
-  margin: auto; 
-  margin-bottom: 10px;
-}
 
 #info {
   display: flex;
