@@ -6,14 +6,14 @@
 
 body {
     height: 100vh; 
-    background-color: pink;
+    // background-color: red; 
     display: flex; 
 }
 
 .game {
     width: 640px; 
     height: 640px; 
-    border: 2px solid green; 
+    // border: 2px solid green; 
     display: flex; 
     flex-wrap: wrap; 
     margin: auto; 
@@ -25,23 +25,31 @@ body {
     width: calc(25% - 10px); 
     height: calc(33.333% - 10px); 
     position: relative; 
+    transform: scale(1); 
+}
+
+.coffeehouse-card:active {
+    transform: scale(.97);
+    transition: transform .3s; 
 }
 
 .front {
-    border: 2px solid blue; 
+    // border: 2px solid blue; 
     position: absolute; 
     width: 100%;
     height: 100%; 
     border-radius: 5px;
     padding: 15px; 
+    background-color:light palevioletred;
 
 }
 
 .back {
-    border: 2px solid purple; 
+    // border: 2px solid purple; 
     position: absolute; 
     width: 100%;
     height: 100%; 
     border-radius: 5px;
     padding: 15px;  
+    background-color:light palevioletred;
 }
