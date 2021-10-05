@@ -51,6 +51,14 @@ function disable() {
     reset(); 
 }
 
+//function will be executed right after it's definition 
+(function shuffleBoard() {
+    coffeeCards.forEach(card => {
+        let randomPosition = Math.floor(Math.random() * 12);
+        card.style.order = randomPosition; 
+    })
+})();
+
 function reset() {
     flipped = false; 
     lockBoard = false; 
