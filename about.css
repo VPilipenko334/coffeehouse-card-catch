@@ -1,0 +1,70 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* background: rgb(231, 219, 219); */
+  position: relative;
+  font-weight: bolder;
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pile-of-coffee-beans-background-stockcam.jpg);
+  opacity: 100%;
+}
+
+
+#container {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 1px solid #2c211e;
+  overflow: hidden;
+  background-color: #cfaea5b6;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+} 
+
+
+#instructions {
+  /* height: 90%; */
+  /* width: 90%; */
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  position: relative;
+  border: 1.5px solid #3a3635;
+  overflow: hidden;
+  background-color:#e2d0cc85;
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  background-image: url(https://i.gifer.com/2iiH.gif);
+} 
+
+#button {
+  background-color: rgba(204, 112, 140, 0.692);
+  border-radius: 60px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+
+#biggerdiv {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  border: 1px solid #2c211e;
+  overflow: hidden;
+  background-color: #e2d0cc96;
+  background-image: url(https://i.gifer.com/2iiH.gif);
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+} 
+
+#musicbuttons {
+  margin-bottom: 75px;
+}

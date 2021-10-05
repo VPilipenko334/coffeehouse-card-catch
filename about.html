@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="dist/dancingcoffee.gif" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/about_page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="coffee_bean_favicon.png" />
+    <title>Welcome Page</title>
+</head>
+
+<body>
+
+    <div id="body">
+        <div id="container">
+
+            <div id="instructions">
+
+                <h1>About the Creator</h1>
+            </div>
+            <div id="biggerdiv"> <br>
+
+                <img src="headshot.png" id="headshot"><br>
+
+                <div class="about-me"><br>
+                    Hi, my name is Veronika Pilipenko and I am a fullstack developer.
+                    I really enjoy working working with frontend frameworks such as React, and backend frameworks such
+                    as Rails.
+                    My favorite languages to code in are JavaScript and Ruby.
+                    I live in New York City with my dog and really enjoy coffee.
+                </div>
+
+                <div id="links"><br>
+                    <a href="https://github.com/VPilipenko334">
+                        <img alt="github" src="src/images/15.png" width="70" height="70" id="social"></a>
+
+                    <a href="https://www.linkedin.com/in/veronikapilipenko">
+                        <img alt="linkedin" src="src/images/16.png" width="70" height="70" id="social"></a>
+
+                    <a href="https://angel.co/u/veronika-pilipenko">
+                        <img alt="angelist" src="src/images/list2.png" width="70" height="70" id="social"></a>
+                </div>
+
+                <form action="index.html"> <br>
+                    <input id="button" type="submit" value="Play the game" /><br><br>
+                    <audio id="music">
+                        <source src="tie_me_down.mp3" type="audio/mpeg">
+                    </audio>
+                    <button id="button" onclick="play()" type="button">Sound On </button>
+                    <button id="button" onclick="pause()" type="button">Pause Music</button>
+                    <script>
+                        var myMusic = document.getElementById("music");
+                        function play() {
+                            myMusic.play();
+                        }
+
+                        function pause() {
+                            myMusic.pause();
+                        }
+                    </script>
+                </form>
+                <br>
+
+            </div>
+        </div>
+
+</body>
+
+</html>
