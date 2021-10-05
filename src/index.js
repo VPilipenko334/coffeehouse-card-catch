@@ -1,12 +1,14 @@
 const coffeeCards = document.querySelectorAll('.coffeehouse-card')
 
 let flipped = false; 
-let lockBoard = false; 
+let lockBoard= false; 
 let firstCard, secondCard; 
 
 function flipCard() {
     // console.log('hello')
-    // if (lockBoard)
+    if (lockBoard) return; 
+
+    if (this === firstCard) return; 
     this.classList.toggle('flip')
 
     if (flipped === false) {
@@ -25,10 +27,13 @@ function flipCard() {
 // console.log(secondCard.dataset.framework)
 
 function unflip() {
-    setTimeout(() => {
-        firstCard.classList.remove('flip')
-        secondCard.classList.remove('flip')
-    }, 1500);
+    lockBoard = true; 
+        setTimeout(() => {
+            firstCard.classList.remove('flip')
+            secondCard.classList.remove('flip')
+        lockBoard = false; 
+        reset(); 
+    }, 1000);
 }
 
 function match() {
@@ -42,6 +47,15 @@ function match() {
 function disable() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard); 
+
+    reset(); 
+}
+
+function reset() {
+    flipped = false; 
+    lockBoard = false; 
+    firstCard = null;
+    secondCard = null; 
 }
 
 coffeeCards.forEach(card => card.addEventListener('click', flipCard)); 
