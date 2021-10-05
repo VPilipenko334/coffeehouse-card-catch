@@ -1,28 +1,8 @@
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-/* canvas { */
-  /* height: 550px; */
-  /* width: 1250px; */
-  /* border: 1px solid black;  */
-  /* background-image: url(../images/background.jpeg); */
-/* } */
-
-.canvas-container {
-    display: block;
-    margin: auto;
-    /* margin-top: 100vh;
-    margin-left: 5vh; */
-    position: absolute;
-    /* width: 90vw;
-    height: 70vh; */
-    display: flex;
-    justify-content: center;
-    /* background-color: red */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 
@@ -31,7 +11,6 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Lemonada', cursive;
-  /* background: rgb(231, 219, 219); */
   position: relative;
   font-weight: bolder;
   background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pile-of-coffee-beans-background-stockcam.jpg);
@@ -50,9 +29,9 @@ h3 {
   margin: 5%;
   position: relative;
   border: 1px solid #2c211e;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #f3cfc6b0;
-  text-align: center;
+  /* text-align: center; */
   justify-content: space-around;
   border: 10px double #774936;
   border-radius: 50px;
