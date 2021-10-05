@@ -8,11 +8,13 @@ body {
     height: 100vh; 
     // background-color: red; 
     display: flex; 
+    // margin: auto; 
 }
 
 .game {
     width: 640px; 
     height: 640px; 
+    perspective: 1000px; 
     // border: 2px solid green; 
     display: flex; 
     flex-wrap: wrap; 
@@ -26,6 +28,12 @@ body {
     height: calc(33.333% - 10px); 
     position: relative; 
     transform: scale(1); 
+    transform-style: preserve-3d;
+    transition: transform .3s; 
+}
+
+.coffeehouse-card.flip {
+    transform: rotateY(180deg)
 }
 
 .coffeehouse-card:active {
@@ -38,10 +46,14 @@ body {
     position: absolute; 
     width: 100%;
     height: 100%; 
-    border-radius: 5px;
-    padding: 15px; 
+    border-radius: 10px;
+    padding: 10px; 
     background-color:light palevioletred;
-
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    margin: auto; 
+    align-items: center;
+    justify-content: center;
 }
 
 .back {
@@ -49,7 +61,10 @@ body {
     position: absolute; 
     width: 100%;
     height: 100%; 
-    border-radius: 5px;
-    padding: 15px;  
+    border-radius: 10px;
+    padding: 10px;  
+    // margin: 10px;
     background-color:light palevioletred;
+    backface-visibility: hidden;
 }
+
