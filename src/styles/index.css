@@ -55,11 +55,11 @@ h3 {
 } 
 
 button {
-  /* background-color: #642A11; */
-  color: black; 
+  background-color: #642A11;
+  color: white; 
   border-radius: 60px;
   border: 3px solid #642A11;
-  background-color: rgba(204, 112, 140, 0.692);
+  /* background-color: rgba(204, 112, 140, 0.692); */
   /* background-color: rgba(230, 139, 166, 0.692); */
   /* background-color: pink; */
   /* color: #361608; */
@@ -73,8 +73,9 @@ button {
 }
 
 button:hover {
-  color: white; 
-  background-color: #642A11; 
+  color: black; 
+  background-color: rgba(204, 112, 140, 0.692);
+  border: 3px solid rgba(204, 112, 140, 0.692);
 }
 
 #generator-button {
@@ -92,6 +93,7 @@ button:hover {
 #generator-button:hover {
   color: black; 
   background-color: rgba(204, 112, 140, 0.692);
+  border: 3px solid rgba(204, 112, 140, 0.692);;
 }
 
 
@@ -142,6 +144,7 @@ button:hover {
    /* background-color: rgba(204, 112, 140, 0.692); */
   /* background-color: rgba(230, 139, 166, 0.692); */
   /* background-color: pink; */
+  background-color: #642A11; ;
   /* color: #361608; */
   border-radius: 60px;
   font-family: 'Lemonada', cursive;
@@ -154,15 +157,16 @@ button:hover {
   /* color: white;  */
   border-radius: 60px;
   border: 3px solid #642A11;
-  background-color: rgba(204, 112, 140, 0.692);
-  color: black; 
+  /* background-color: rgba(204, 112, 140, 0.692); */
+  color: white; 
   /* border: 3px solid #3a3635; */
   box-shadow: 2% #642A11;
 }
 
 #welcome-page:hover {
-  color: white; 
-  background-color: #642A11; 
+  color: black; 
+  background-color: rgba(204, 112, 140, 0.692);
+  border: 3px solid rgba(204, 112, 140, 0.692);; 
 }
 
 
