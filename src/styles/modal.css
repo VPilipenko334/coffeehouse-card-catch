@@ -24,8 +24,9 @@
 
 .title {
   margin: auto;
-  width: 50%;
+  width: 75%;
   padding: 5px;
+  /* font-size: 16px; */
 }
 
 .modal-header {
@@ -38,7 +39,7 @@
 }
 
 .modal-header .title {
-  font-size: 1.25rem;
+  font-size: 18px;
   font-weight: bold;
   align-items: center;
   text-align: center;
@@ -60,8 +61,8 @@
 }
 
 .modal-body {
-  padding: 10px 10px;
-  font-size: 15px; 
+  padding: 10px 15px;
+  font-size: 16px; 
 
 }
 

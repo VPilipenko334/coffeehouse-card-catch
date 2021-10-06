@@ -81,7 +81,7 @@ button {
   /* border: 3px solid #774936; */
   font-family: 'Lemonada', cursive;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
   cursor: pointer;
 }
@@ -99,7 +99,7 @@ button:hover {
   border: 3px solid #642A11;
   font-family: 'Lemonada', cursive;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
   cursor: pointer;
 }
@@ -163,7 +163,7 @@ button:hover {
   border-radius: 60px;
   font-family: 'Lemonada', cursive;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 15px;
   position: relative; 
   /* border: 3px solid #774936; */
   cursor: pointer;
