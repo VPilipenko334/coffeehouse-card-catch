@@ -36,6 +36,20 @@ h3 {
   border: 10px double #642A11;
   border-radius: 50px;
   /* opacity: 95%; */
+  background-image: url(https://i.gifer.com/2iiH.gif);
+} 
+
+#container2 {
+  margin: 5%;
+  position: relative;
+  border: 1px solid #2c211e;
+  /* overflow: hidden; */
+  background-color: #f3cfc6b0;
+  /* text-align: center; */
+  justify-content: space-around;
+  border: 10px double #642A11;
+  border-radius: 50px;
+  /* opacity: 95%; */
 } 
 
 
