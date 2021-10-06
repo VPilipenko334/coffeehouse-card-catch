@@ -10,7 +10,7 @@
   transition: 200ms ease-in-out;
   /* border: 1px solid black;
   border-radius: 10px; */
-  border: 10px double #774936;
+  border: 10px double #642A11;
   border-radius: 50px;
   z-index: 10;
   background-color: pink;
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 3px solid #774936;
+  border-bottom: 3px solid #642A11;
   text-align: center;
 }
 
