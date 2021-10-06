@@ -69,13 +69,14 @@
   display: inline-block;
   background-color: #f3cfc6b0;
   border: 10px double #642A11;
+  padding-left: 10px;
   border-radius: 50px;
-  padding: 8px;
-  height: 690px;
-  width: 375px;
-  margin: 4.5%;
-  margin-left: 10px;
+  height: 685px;
+  width: 290px;
+  font-size: 14px;
+  margin-top: 4.5%;
   position: absolute;
+  justify-content: left;
 }
 
 .outer-game-container {
