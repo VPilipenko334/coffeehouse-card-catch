@@ -15,7 +15,7 @@ body {
 #container {
   margin:5%;
   position: relative;
-  border: 10px double #774936;
+  border: 10px double #642A11;
   border-radius: 50px;
   overflow: hidden;
   background-color: #cfaea5b6;
@@ -28,7 +28,7 @@ body {
 #instructions {
   margin: 5%;
   position: relative;
-  border: 10px double #774936;
+  border: 10px double #642A11;
   border-radius: 50px;
   overflow: hidden;
   background-color: #f3cfc6b0;
@@ -61,7 +61,7 @@ body {
   align-items: center;
   margin: auto;
   font-weight: bolder;
-  /* border: 10px double #774936;
+  /* border: 10px double #642A11;
   border-radius: 50px;
   background-color: rgba(220, 188, 214, 0.747); */
 }
@@ -74,7 +74,7 @@ h1 {
 
 #biggerdiv {
   position: relative;
-  border: 10px double #774936;
+  border: 10px double #642A11;
   border-radius: 50px;
   overflow: hidden;
   background-color: #f3cfc6b0;
@@ -94,7 +94,7 @@ h1 {
   height: 300px;
   width: 300px;
   align-items: center;
-  border: 10px double #774936;
+  border: 10px double #642A11;
   border-radius: 50px;
 }
 
