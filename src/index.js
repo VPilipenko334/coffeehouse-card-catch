@@ -97,6 +97,12 @@ function reset() {
 
 coffeeCards.forEach(card => card.addEventListener('click', flipCard)); 
 
+// function winner() {
+//     if (firstCard.dataset.framework === secondCard.dataset.framework && flipped === true) {
+//         alert ('you won the game!');
+//     }
+// }
+
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
