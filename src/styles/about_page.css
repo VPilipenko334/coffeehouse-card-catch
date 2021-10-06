@@ -38,18 +38,20 @@ body {
 } 
 
 #button {
-  background-color: rgba(204, 112, 140, 0.692);
+  background-color: #642A11;
   border-radius: 60px;
   font-family: 'Lemonada', cursive;
   font-weight: bolder;
   font-size: 18px;
-  color: #361608;
-  border: 3px solid #774936;
+  color: white; 
+  border: 3px solid #642A11;
   cursor: pointer;
 }
 
 #button:hover {
-  color: rgb(165, 70, 18)
+  color: black; 
+  background-color: rgba(204, 112, 140, 0.692);
+  border: 3px solid rgba(204, 112, 140, 0.692);
 }
 
 .about-me {
