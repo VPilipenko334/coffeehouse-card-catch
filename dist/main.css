@@ -66,6 +66,7 @@
 }
 
 .recipe {
+  display: inline-block;
   background-color: #f3cfc6b0;
   border: 10px double #774936;
   border-radius: 50px;
@@ -74,8 +75,7 @@
   width: 365px;
   margin: 5%;
   margin-left: 10px;
-  float: right;
-  justify-content: space-evenly;
+  position: absolute;
 }
 
 .outer-game-container {
