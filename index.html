@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-77F7HPSNP1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-77F7HPSNP1');
+</script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -29,9 +40,9 @@
 <body>
     <div id="container"><br>
         <center><img src="./images/logo.png" class="logo-coffeehouse"></img></center>
-    
+
         <div id="instructions">
-    
+
             <div id="container2">
                 <br>
                 <button data-modal-target="#modal">Instructions</button> <br><br>
@@ -52,22 +63,22 @@
                             <br><br>
                     </div>
                 </div>
-              
-    
+
+
                 <form action="about.html">
                     <input id="welcome-page" type="submit" value="About the creator" />
                 </form>
-    
+
                 <br>
                 <div class="buttons">
-    
+
                     <audio id="music">
                         <source src="cruel_summer.mp3" type="audio/mpeg">
                     </audio>
-    
+
                     <button id="buttonz" onclick="play()" type="button">Sound On</button>
                     <button id="buttonz" onclick="pause()" type="button">Pause Music</button>
-    
+
                     <script>
                         var myMusic = document.getElementById("music");
                         function play() {
@@ -81,68 +92,68 @@
                     <br>
                 </div>
                 <br>
-            </div>  
+            </div>
         </div>
-        
+
         <div class="outer-game-container">
             <div class="game-container">
                 <div class="game">
-            
+
                     <div class="coffeehouse-card" data-framework="milk">
                         <img src="./images/milk.png" class="front" id="milk"  />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="milk">
                         <img src="./images/milk.png" class="front" id="milk"/>
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="beans">
                         <img src="./images/coffeebeans.png" class="front" id="beans"  />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="beans">
                         <img src="./images/coffeebeans.png" class="front" id="beans" />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="cup">
                         <img src="./images/tall_cup.png" class="front" id="cup" />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="cup">
                         <img src="./images/tall_cup.png" class="front" id="honey" />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="honey">
                         <img src="./images/honey.png" class="front" id="honey" />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="honey">
                         <img src="./images/honey.png" class="front" id="honey" />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="straw">
                         <img src="./images/straw.png" class="front" id="straw"/>
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="straw">
                         <img src="./images/straw.png" class="front" id="straw" />
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="sugar" >
                         <img src="./images/sugar.png" class="front" id="sugar"/>
                         <img src="./images/card_back 2.png" class="back" />
                     </div>
-                    
+
                     <div class="coffeehouse-card" data-framework="sugar" >
                         <img src="./images/sugar.png" class="front" id="sugar" />
                         <img src="./images/card_back 2.png" class="back" />
@@ -150,7 +161,7 @@
                 </div>
 
             </div>
-            
+
             <div class="recipe">
                <div class="active2" id="overlay2"></div><br>
 
@@ -172,7 +183,7 @@
                     </div>
                 <!-- </div> -->
                 <div class="active" id="overlay"></div><br><br>
-            
+
         </div>
     </div>
 
