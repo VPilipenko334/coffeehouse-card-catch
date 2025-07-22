@@ -13,7 +13,7 @@
   border: 10px double #642A11;
   border-radius: 50px;
   z-index: 10;
-  background-color: pink;
+  background-color: green;
   width: 500px;
   max-width: 80%;
 }
@@ -53,16 +53,16 @@
   background: none;
   font-size: 1.25rem;
   font-weight: bold;
-  color: #642A11 
+  color: #642A11
 }
 
 .close-button:hover {
-  color: white; 
+  color: white;
 }
 
 .modal-body {
   padding: 10px 15px;
-  font-size: 16px; 
+  font-size: 16px;
 
 }
 
